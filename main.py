@@ -1,4 +1,3 @@
-#Задание 1
 class Streamer:
     def __init__(self, nick, subscribers):
         self.nick = nick
@@ -34,7 +33,6 @@ a.add_donate(50)
 print_stats(a)
 print("Популярен:", is_popular(a) )
 
-#Задание 2
 class Character:
     def __init__(self, name, level):
         self.name = name
@@ -69,7 +67,6 @@ hero.heal(10)
 print_character(hero)
 print("Жив:", is_alive(hero))
 
-#Задание 3
 class Student:
     def __init__(self, name, group):
         self.name = name
@@ -101,3 +98,5 @@ a.add_grade(4)
 a.add_grade(5)
 print_student(a)
 print("Отличник:", is_good_student(a))
+
+#Hello World
